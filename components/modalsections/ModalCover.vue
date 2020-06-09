@@ -16,7 +16,7 @@
 export default {};
 </script>
 
-<style scoped>
+<style>
 .modal-cover-profile {
   background-image: url("../../assets/images/photos/modal/valeria_consultorio.jpg");
 }

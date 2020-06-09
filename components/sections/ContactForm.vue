@@ -105,21 +105,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.form-input {
-  @apply bg-cool-grey-100 font-thin flex-1 text-lg rounded-lg py-4 px-6 m-2;
-}
-.form-input:hover {
-  @apply bg-cool-grey-200 text-cyan-700;
-}
-::placeholder {
-  color: #857f72;
-  opacity: 1;
-}
-.form-input:hover::placeholder,
-.form-input:focus::placeholder {
-  color: #0e7c86;
-  opacity: 1;
-}
-</style>

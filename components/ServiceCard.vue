@@ -42,7 +42,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 @screen sm {
   .width-xxs {
     max-width: 17rem;

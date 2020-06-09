@@ -118,5 +118,8 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: []
+  plugins: [],
+  purge: {
+    enabled: false,
+  }
 }
