@@ -1,0 +1,79 @@
+/* Setting fade transition and default settings */
+body {
+  @apply bg-warm-grey-050;
+  color: #000;
+  /* background-color: #f4f4f4; */
+  transition: background-color 1s ease;
+}
+
+/* panel styles */
+.panel {
+  /* min height incase content is higher than window height */
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: sans-serif;
+  /* outline: 10px solid hotpink; */
+  /* turn above on to see the edge of panels */
+}
+
+/* colours */
+.color-violet {
+  background-color: #7A4EAB;
+}
+
+.color-gradient {
+  background-image: linear-gradient(117.21deg, #14919B -2.42%, rgba(224, 251, 255, 0.5) 104.56%);
+}
+
+.color-grey-050 {
+  @apply bg-warm-grey-050;
+}
+
+.color-indigo {
+  background-color: #4332CF;
+}
+
+.color-blue {
+  background-color: #2F8FED;
+}
+
+.color-green {
+  background-color: #4DCF42;
+}
+
+.color-yellow {
+  background-color: #FAEB33;
+}
+
+.color-orange {
+  background-color: #F19031;
+}
+
+.color-red {
+  background-color: #F2293A;
+}
+
+/* styling for demo, can ignore */
+body {
+  text-align: center;
+  font-size: 120%;
+  line-height: 1.618;
+}
+
+h1,
+h2 {
+  font-size: 3em;
+  letter-spacing: -0.05em;
+  line-height: 1.1;
+}
+
+p {
+  max-width: 30em;
+  margin-bottom: 1.618em;
+}
+
+a {
+  color: #4332CF;
+}

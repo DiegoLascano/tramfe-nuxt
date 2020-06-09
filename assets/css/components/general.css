@@ -1,0 +1,53 @@
+body {
+  /*background-image: linear-gradient(red, yellow);*/
+  @apply bg-cool-grey-050;
+  transition: background-color 1s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container-1200 {
+  max-width: 1200px;
+}
+
+.container-800 {
+  max-width: 800px;
+}
+
+.color-gradient {
+  /* background-color: rgba(20, 145, 155, 0.5); */
+  @apply bg-cool-grey-200;
+  /* background-image: linear-gradient(117.21deg, #14919B -2.42%, rgba(224, 251, 255, 0.5) 104.56%); */
+}
+
+.color-grey-050 {
+  @apply bg-cool-grey-050;
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, rgba(0, 62, 107, 1) 20%, rgba(10, 108, 116, 1) 50%, rgba(20, 145, 155, 1) 100%);
+  /* background: linear-gradient(118.91deg, #2CB1BC -3.92%, #003E6B 66.37%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section-title {
+  @apply uppercase font-semibold text-center text-4xl tracking-widest text-cool-grey-700 p-10 mt-16;
+}
+
+@screen md {
+  .section-title {
+    @apply text-5xl;
+  }
+}
+
+#modal {
+  /* @apply bg-cool-grey-050; */
+  transition: 1s ease;
+}
+
+.layer {
+  background-color: rgba(0, 62, 107, 0.8);
+}

@@ -1,0 +1,54 @@
+.primary {
+  /* fill: #2CB1BC;  */
+  fill: #14919B;
+  /* fill: #044E54; */
+  /* transition: fill 0.5s ease; */
+}
+
+.secondary {
+  fill: #044E54;
+  /* fill: #E0FCFF;  */
+}
+
+.primary-gradient {
+  fill: url(#Gradient1);
+}
+
+.secondary-gradient {
+  fill: #E0FCFF;
+}
+
+.gradient-10 {
+  stop-color: rgba(0, 62, 107, 0.9);
+}
+
+.gradient-30 {
+  stop-color: rgba(10, 108, 116, 0.85);
+}
+
+.gradient-100 {
+  stop-color: rgba(20, 145, 155, 0.9);
+}
+
+/* Logo classes */
+.navbar-fixed-top.scrolled .logo-brain {
+  fill: #9AA5B1;
+}
+
+.logo-brain {
+  fill: #E0FCFF;
+}
+
+.logo-vright {
+  fill: #004e54;
+  /* fill:#E0FCFF; */
+}
+
+.logo-vleft {
+  fill: #14919B;
+  /* fill:#E0FCFF; */
+}
+
+.logo-no-fill {
+  fill: none;
+}
