@@ -44,13 +44,7 @@
 </template>
 
 <script>
-// import InlineSvg from "../components/InlineSvg";
-
-export default {
-  //   components: {
-  //     InlineSvg
-  //   }
-};
+export default {};
 </script>
 
 <style scoped>

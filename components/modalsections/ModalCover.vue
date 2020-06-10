@@ -15,27 +15,3 @@
 <script>
 export default {};
 </script>
-
-<style>
-.modal-cover-profile {
-  background-image: url("../../assets/images/photos/modal/valeria_consultorio.jpg");
-}
-.modal-cover-clinical {
-  background-image: url("../../assets/images/photos/modal/clinical.png");
-}
-.modal-cover-neuro {
-  background-image: url("../../assets/images/photos/modal/neuro.jpg");
-}
-.modal-cover-cognitive {
-  background-image: url("../../assets/images/photos/modal/cognitive.jpg");
-}
-.modal-cover-edu {
-  background-image: url("../../assets/images/photos/modal/edu.jpg");
-}
-.modal-cover-tele {
-  background-image: url("../../assets/images/photos/modal/tele.jpg");
-}
-.modal-cover-training {
-  background-image: url("../../assets/images/photos/modal/capacitacion.jpg");
-}
-</style>

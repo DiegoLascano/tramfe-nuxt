@@ -3,6 +3,7 @@
 @import 'tailwindcss/components';
 /* purgecss end ignore */
 @import './global';
+@import './images';
 @import './components/button';
 @import './components/general';
 @import './components/icon';

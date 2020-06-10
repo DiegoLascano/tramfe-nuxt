@@ -25,7 +25,6 @@
 </template>
 
 <script>
-// import InlineSvg from './InlineSvg';
 export default {
   props: ["image", "iconName"],
   data() {
@@ -35,15 +34,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.step-1 {
-  background-image: url("../assets/images/logos/guttmann.png");
-}
-.step-2 {
-  background-image: url("../assets/images/photos/cover/hands.jpg");
-}
-.step-3 {
-  background-image: url("../assets/images/photos/modal/alpes.jpg");
-}
-</style>

@@ -2,9 +2,9 @@
   <div
     class="w-full sm:w-1/2 md:w-1/2 lg:w-1/3 text-cool-grey-700 hover:text-cyan-700 md:my-3 lg:my-4"
   >
-    <!-- @click="emitEvent()" -->
     <a
       id="bg-card"
+      @click="emitEvent()"
       class="m-3 flex flex-col rounded-lg h-56 width-xxs bg-cool-grey-100 hover:bg-cool-grey-200 mx-auto py-12"
     >
       <div class="flex-1 flex">
@@ -28,11 +28,7 @@
 </template>
 
 <script>
-// import InlineSvg from "./InlineSvg.js";
 export default {
-  // components: {
-  //   InlineSvg
-  // },
   props: ["iconName", "eventName"],
   methods: {
     emitEvent() {

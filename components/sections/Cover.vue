@@ -3,11 +3,6 @@
   <div id="cover">
     <div class="absolute"></div>
     <div class="cover-bg-gradient min-h-screen flex flex-col justify-center">
-      <!-- <img
-        class="m-auto h-112"
-        src="../../assets/images/logos/logo-name@4x.png"
-        alt=""
-      /> -->
       <div class="m-auto">
         <client-only>
           <inline-svg
@@ -38,9 +33,6 @@ export default {};
 
 <style>
 /* Images are working only whitin vue components. Somehow, url() doesnt work in scss files */
-.cover {
-  background-image: url("../../assets/images/photos/cover/down.jpg");
-}
 .cover-bg-gradient {
   background-image: linear-gradient(
     120deg,

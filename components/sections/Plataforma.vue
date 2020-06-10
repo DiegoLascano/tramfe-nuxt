@@ -109,14 +109,7 @@
 </template>
 
 <script>
-// import InlineSvg from "../components/InlineSvg";
-// import StepCard from "../components/StepCard.vue";
-export default {
-  //   components: {
-  //     StepCard,
-  //     InlineSvg
-  //   }
-};
+export default {};
 </script>
 
 <style scoped>

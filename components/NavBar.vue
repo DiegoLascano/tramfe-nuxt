@@ -122,7 +122,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .navbar-fixed-top.scrolled {
   background-color: #e4e7eb !important;
   transition: background-color 400ms ease;
